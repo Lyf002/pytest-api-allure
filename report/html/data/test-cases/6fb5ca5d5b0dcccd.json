@@ -1,0 +1,66 @@
+{
+  "uid" : "6fb5ca5d5b0dcccd",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdNone",
+  "fullName" : "testcase.D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdNone",
+  "historyId" : "41eed38e7019dfd7e8fd4ccf86894273",
+  "time" : {
+    "start" : 1554616526785,
+    "stop" : 1554616526836,
+    "duration" : 51
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-76S2O4D"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "密码参数找不到进行登录"
+  }, {
+    "name" : "thread",
+    "value" : "11644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdNone"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6fb5ca5d5b0dcccd.json",
+  "parameterValues" : [ ]
+}

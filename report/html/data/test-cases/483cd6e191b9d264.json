@@ -1,0 +1,66 @@
+{
+  "uid" : "483cd6e191b9d264",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdNull",
+  "fullName" : "testcase.D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdNull",
+  "historyId" : "2610485931855b5d02f20630e43d67d7",
+  "time" : {
+    "start" : 1554616526701,
+    "stop" : 1554616526753,
+    "duration" : 52
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-76S2O4D"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "密码为空进行登录"
+  }, {
+    "name" : "thread",
+    "value" : "11644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdNull"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "483cd6e191b9d264.json",
+  "parameterValues" : [ ]
+}

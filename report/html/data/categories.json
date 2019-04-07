@@ -1,0 +1,61 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 411 == 200",
+      "children" : [ {
+        "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd",
+        "uid" : "de47e663bbcc1ebc",
+        "parentUid" : "27fdb63db359f2228afe33b562c383e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1554616526359,
+          "stop" : 1554616526484,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27fdb63db359f2228afe33b562c383e9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 200 == 301",
+      "children" : [ {
+        "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uNameErr",
+        "uid" : "ea9419113f3478b2",
+        "parentUid" : "f09f2ef056afc60ad0c2ca3c7057e212",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554616526575,
+          "stop" : 1554616526633,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f09f2ef056afc60ad0c2ca3c7057e212"
+    }, {
+      "name" : "AssertionError: assert 3010 == 301",
+      "children" : [ {
+        "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uNameNull",
+        "uid" : "a8e084d2f7af3f99",
+        "parentUid" : "805477a34fb231f67c6d9f36c9cbd9a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554616526671,
+          "stop" : 1554616526700,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "805477a34fb231f67c6d9f36c9cbd9a2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

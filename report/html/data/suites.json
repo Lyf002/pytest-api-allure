@@ -1,0 +1,141 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "D:\\接口测试\\CityManagetest\\testcase\\flows.test_flow1.Test_flow1.test_flow1",
+      "uid" : "97911c46d539a507",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554616526067,
+        "stop" : 1554616526358,
+        "duration" : 291
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd",
+      "uid" : "de47e663bbcc1ebc",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1554616526359,
+        "stop" : 1554616526484,
+        "duration" : 125
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_getUserInfo.test_getUserInfo",
+      "uid" : "a333a2ab57b70c37",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554616526512,
+        "stop" : 1554616526541,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_success",
+      "uid" : "10dab8ce56349496",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554616526542,
+        "stop" : 1554616526573,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uNameErr",
+      "uid" : "ea9419113f3478b2",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554616526575,
+        "stop" : 1554616526633,
+        "duration" : 58
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdErr",
+      "uid" : "141269cb4232395b",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554616526634,
+        "stop" : 1554616526669,
+        "duration" : 35
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uNameNull",
+      "uid" : "a8e084d2f7af3f99",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554616526671,
+        "stop" : 1554616526700,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdNull",
+      "uid" : "483cd6e191b9d264",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554616526701,
+        "stop" : 1554616526753,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uNameNone",
+      "uid" : "e45ec80a673c5583",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554616526754,
+        "stop" : 1554616526783,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdNone",
+      "uid" : "6fb5ca5d5b0dcccd",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554616526785,
+        "stop" : 1554616526836,
+        "duration" : 51
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\接口测试\\CityManagetest\\testcase\\user.test_user_userList.Test_loadUserList.test_loadUserList",
+      "uid" : "435475bb1244083e",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554616526838,
+        "stop" : 1554616526863,
+        "duration" : 25
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

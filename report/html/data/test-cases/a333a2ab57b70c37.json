@@ -1,0 +1,66 @@
+{
+  "uid" : "a333a2ab57b70c37",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_getUserInfo.test_getUserInfo",
+  "fullName" : "testcase.D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_getUserInfo.test_getUserInfo",
+  "historyId" : "ef0a391f5a8a056754543824fe858cdb",
+  "time" : {
+    "start" : 1554616526512,
+    "stop" : 1554616526541,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "获取用户信息模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-76S2O4D"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "获取用户信息成功"
+  }, {
+    "name" : "thread",
+    "value" : "11644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_getUserInfo.test_getUserInfo"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a333a2ab57b70c37.json",
+  "parameterValues" : [ ]
+}

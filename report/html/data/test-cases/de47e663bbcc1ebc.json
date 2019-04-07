@@ -1,0 +1,72 @@
+{
+  "uid" : "de47e663bbcc1ebc",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd",
+  "fullName" : "testcase.D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd",
+  "historyId" : "d18f86cfbb0fe8158064e0fe5f17275e",
+  "time" : {
+    "start" : 1554616526359,
+    "stop" : 1554616526484,
+    "duration" : 125
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "AssertionError: assert 411 == 200",
+  "statusTrace" : "self = <testcase.sys.test_sys_changePwd.Test_changePwd object at 0x00000243B90AFE48>\n\n    @allure.story('修改密码成功')\n    @pytest.mark.usefixtures(\"test_resetPwd\")\n    def test_changePwd(self):\n        path='/sys/changePwd'\n        data={\n            'token':CommonData.token,\n            'userId':140,\n            'userName':CommonData.mobile,\n            'oldPwd':CommonData.password,\n            'password':'123123'\n        }\n        resp_changePwd=http.post(path,data)\n        # print(resp_getInfo)\n>       assert resp_changePwd['code']==200\nE       assert 411 == 200\n\ntestcase\\sys\\test_sys_changePwd.py:22: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改密码模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-76S2O4D"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "修改密码成功"
+  }, {
+    "name" : "thread",
+    "value" : "11644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "de47e663bbcc1ebc.json",
+  "parameterValues" : [ ]
+}

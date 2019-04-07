@@ -1,0 +1,66 @@
+{
+  "uid" : "10dab8ce56349496",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_success",
+  "fullName" : "testcase.D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_success",
+  "historyId" : "45b9205e8a8d72a9835f1db9e3a343fd",
+  "time" : {
+    "start" : 1554616526542,
+    "stop" : 1554616526573,
+    "duration" : 31
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-76S2O4D"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "登录成功"
+  }, {
+    "name" : "thread",
+    "value" : "11644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_success"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10dab8ce56349496.json",
+  "parameterValues" : [ ]
+}

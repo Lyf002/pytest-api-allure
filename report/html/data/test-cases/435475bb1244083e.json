@@ -1,0 +1,60 @@
+{
+  "uid" : "435475bb1244083e",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\user.test_user_userList.Test_loadUserList.test_loadUserList",
+  "fullName" : "testcase.D:\\接口测试\\CityManagetest\\testcase\\user.test_user_userList.Test_loadUserList.test_loadUserList",
+  "historyId" : "2c3f22b6ae625835f49169a036da01b9",
+  "time" : {
+    "start" : 1554616526838,
+    "stop" : 1554616526863,
+    "duration" : 25
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-76S2O4D"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "11644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\接口测试\\CityManagetest\\testcase\\user.test_user_userList.Test_loadUserList.test_loadUserList"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "435475bb1244083e.json",
+  "parameterValues" : [ ]
+}

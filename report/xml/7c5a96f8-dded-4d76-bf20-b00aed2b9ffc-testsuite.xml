@@ -1,0 +1,209 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554616526067" stop="1554616526863">
+  <name>testcase</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554616526067" status="passed" stop="1554616526358">
+      <name>D:\接口测试\CityManagetest\testcase\flows.test_flow1.Test_flow1.test_flow1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11644-MainThread"/>
+        <label name="host" value="DESKTOP-76S2O4D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554616526359" status="broken" stop="1554616526484">
+      <name>D:\接口测试\CityManagetest\testcase\sys.test_sys_changePwd.Test_changePwd.test_changePwd</name>
+      <failure>
+        <message>AssertionError: assert 411 == 200</message>
+        <stack-trace>self = &lt;testcase.sys.test_sys_changePwd.Test_changePwd object at 0x00000243B90AFE48&gt;
+
+    @allure.story('修改密码成功')
+    @pytest.mark.usefixtures("test_resetPwd")
+    def test_changePwd(self):
+        path='/sys/changePwd'
+        data={
+            'token':CommonData.token,
+            'userId':140,
+            'userName':CommonData.mobile,
+            'oldPwd':CommonData.password,
+            'password':'123123'
+        }
+        resp_changePwd=http.post(path,data)
+        # print(resp_getInfo)
+&gt;       assert resp_changePwd['code']==200
+E       assert 411 == 200
+
+testcase\sys\test_sys_changePwd.py:22: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="story" value="修改密码成功"/>
+        <label name="feature" value="修改密码模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11644-MainThread"/>
+        <label name="host" value="DESKTOP-76S2O4D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554616526512" status="passed" stop="1554616526541">
+      <name>D:\接口测试\CityManagetest\testcase\sys.test_sys_getUserInfo.test_getUserInfo</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="获取用户信息成功"/>
+        <label name="feature" value="获取用户信息模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11644-MainThread"/>
+        <label name="host" value="DESKTOP-76S2O4D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554616526542" status="passed" stop="1554616526573">
+      <name>D:\接口测试\CityManagetest\testcase\sys.test_sys_login.Test_login.test_login_success</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="登录成功"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11644-MainThread"/>
+        <label name="host" value="DESKTOP-76S2O4D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554616526575" status="failed" stop="1554616526633">
+      <name>D:\接口测试\CityManagetest\testcase\sys.test_sys_login.Test_login.test_login_uNameErr</name>
+      <failure>
+        <message>AssertionError: assert 200 == 301</message>
+        <stack-trace>self = &lt;testcase.sys.test_sys_login.Test_login object at 0x00000243B90D6860&gt;
+
+    @allure.story('用户名不存在进行登录')
+    def test_login_uNameErr(self):
+        data={
+            'userName':'15735518550',
+            'password':CommonData.password
+        }
+        resp_login=http.post('/sys/login',data)
+&gt;       assert resp_login['code']==301
+E       assert 200 == 301
+
+testcase\sys\test_sys_login.py:28: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="story" value="用户名不存在进行登录"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11644-MainThread"/>
+        <label name="host" value="DESKTOP-76S2O4D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554616526634" status="passed" stop="1554616526669">
+      <name>D:\接口测试\CityManagetest\testcase\sys.test_sys_login.Test_login.test_login_uPwdErr</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="密码错误进行登录"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11644-MainThread"/>
+        <label name="host" value="DESKTOP-76S2O4D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554616526671" status="failed" stop="1554616526700">
+      <name>D:\接口测试\CityManagetest\testcase\sys.test_sys_login.Test_login.test_login_uNameNull</name>
+      <failure>
+        <message>AssertionError: assert 3010 == 301</message>
+        <stack-trace>self = &lt;testcase.sys.test_sys_login.Test_login object at 0x00000243B90ED940&gt;
+
+    @allure.story('用户名为空进行登录')
+    def test_login_uNameNull(self):
+        data = {
+            'userName': '',
+            'password': CommonData.password
+        }
+        resp_login = http.post('/sys/login', data)
+&gt;       assert resp_login['code'] == 301
+E       assert 3010 == 301
+
+testcase\sys\test_sys_login.py:50: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="story" value="用户名为空进行登录"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11644-MainThread"/>
+        <label name="host" value="DESKTOP-76S2O4D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554616526701" status="passed" stop="1554616526753">
+      <name>D:\接口测试\CityManagetest\testcase\sys.test_sys_login.Test_login.test_login_uPwdNull</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="密码为空进行登录"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11644-MainThread"/>
+        <label name="host" value="DESKTOP-76S2O4D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554616526754" status="passed" stop="1554616526783">
+      <name>D:\接口测试\CityManagetest\testcase\sys.test_sys_login.Test_login.test_login_uNameNone</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11644-MainThread"/>
+        <label name="host" value="DESKTOP-76S2O4D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554616526785" status="passed" stop="1554616526836">
+      <name>D:\接口测试\CityManagetest\testcase\sys.test_sys_login.Test_login.test_login_uPwdNone</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="密码参数找不到进行登录"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11644-MainThread"/>
+        <label name="host" value="DESKTOP-76S2O4D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554616526838" status="passed" stop="1554616526863">
+      <name>D:\接口测试\CityManagetest\testcase\user.test_user_userList.Test_loadUserList.test_loadUserList</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11644-MainThread"/>
+        <label name="host" value="DESKTOP-76S2O4D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

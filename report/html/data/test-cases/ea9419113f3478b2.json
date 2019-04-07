@@ -1,0 +1,72 @@
+{
+  "uid" : "ea9419113f3478b2",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uNameErr",
+  "fullName" : "testcase.D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uNameErr",
+  "historyId" : "bc4b5a8cd5d6aed41b5efbfc50f86ae7",
+  "time" : {
+    "start" : 1554616526575,
+    "stop" : 1554616526633,
+    "duration" : 58
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 301",
+  "statusTrace" : "self = <testcase.sys.test_sys_login.Test_login object at 0x00000243B90D6860>\n\n    @allure.story('用户名不存在进行登录')\n    def test_login_uNameErr(self):\n        data={\n            'userName':'15735518550',\n            'password':CommonData.password\n        }\n        resp_login=http.post('/sys/login',data)\n>       assert resp_login['code']==301\nE       assert 200 == 301\n\ntestcase\\sys\\test_sys_login.py:28: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-76S2O4D"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "用户名不存在进行登录"
+  }, {
+    "name" : "thread",
+    "value" : "11644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uNameErr"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ea9419113f3478b2.json",
+  "parameterValues" : [ ]
+}

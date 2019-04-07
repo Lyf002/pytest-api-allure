@@ -1,0 +1,111 @@
+[ {
+  "uid" : "e45ec80a673c5583",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uNameNone",
+  "time" : {
+    "start" : 1554616526754,
+    "stop" : 1554616526783,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea9419113f3478b2",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uNameErr",
+  "time" : {
+    "start" : 1554616526575,
+    "stop" : 1554616526633,
+    "duration" : 58
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "de47e663bbcc1ebc",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd",
+  "time" : {
+    "start" : 1554616526359,
+    "stop" : 1554616526484,
+    "duration" : 125
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6fb5ca5d5b0dcccd",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdNone",
+  "time" : {
+    "start" : 1554616526785,
+    "stop" : 1554616526836,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "483cd6e191b9d264",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdNull",
+  "time" : {
+    "start" : 1554616526701,
+    "stop" : 1554616526753,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10dab8ce56349496",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_success",
+  "time" : {
+    "start" : 1554616526542,
+    "stop" : 1554616526573,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a333a2ab57b70c37",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_getUserInfo.test_getUserInfo",
+  "time" : {
+    "start" : 1554616526512,
+    "stop" : 1554616526541,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97911c46d539a507",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\flows.test_flow1.Test_flow1.test_flow1",
+  "time" : {
+    "start" : 1554616526067,
+    "stop" : 1554616526358,
+    "duration" : 291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8e084d2f7af3f99",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uNameNull",
+  "time" : {
+    "start" : 1554616526671,
+    "stop" : 1554616526700,
+    "duration" : 29
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "141269cb4232395b",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\sys.test_sys_login.Test_login.test_login_uPwdErr",
+  "time" : {
+    "start" : 1554616526634,
+    "stop" : 1554616526669,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "435475bb1244083e",
+  "name" : "D:\\接口测试\\CityManagetest\\testcase\\user.test_user_userList.Test_loadUserList.test_loadUserList",
+  "time" : {
+    "start" : 1554616526838,
+    "stop" : 1554616526863,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
